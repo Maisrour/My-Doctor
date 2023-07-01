@@ -194,6 +194,10 @@ ul{
     width: 100%;
     height: 100%;
     transition: 1s;
+    z-index: -1;
+}
+.about-item:hover{
+    z-index: 2;
 }
 .about-item:hover .about-item-title{
     color: red;
@@ -338,10 +342,13 @@ ul{
     background-color:#58d0cf4f;
     transition: 1s;
 }
+.offer-item:hover{
+    z-index: 2;
+}
 .offer-item:hover::after{
     width: 100%;
     height: 100%;
-    
+    z-index: -1;
 }
 .Services {
     width: 100%;
@@ -482,9 +489,13 @@ ul{
     background-color: #3db9b94b;
     transition: 1s;
 }
+.pricing-item:hover{
+    z-index: 2;
+}
 .pricing-item:hover::after{
     width: 100%;
     height: 100%;
+    z-index: -1;
 }
 .pricing-item:hover .pricing-item-paragraph ,.pricing-item:hover  .pricing-item-circle{
     color: red;
